@@ -39,7 +39,10 @@ class JSONTree(object):
                 elif t == dict:
                     r.update({'{{{}}}'.format(self.__colourise__(k, t)): self.__format__(d[k])})
                 elif t == list:
-                    r.update({'[{}]'.format(self.__colourise__(k, t)): self.__format__(d[k][0])})
+                    if len(d[k]):
+                        r.update({'[{}]'.format(self.__colourise__(k, t)): self.__format__(d[k][0])})
+                    else:
+                        r.update({'[{}]'.format(self.__colourise__(k, t)): self.__format__({})})
         return r
 
     def tree(self, data, root=dict):

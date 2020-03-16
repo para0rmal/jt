@@ -186,21 +186,6 @@ template = {
                     'bg': 'default'
                 },
                 {
-                    'text': '╠',
-                    'fg': 'orange',
-                    'bg': 'default'
-                },
-                {
-                    'text': '══╝',
-                    'fg': 'orange',
-                    'bg': 'default'
-                },
-                {
-                    'text': '║ ',
-                    'fg': 'orange',
-                    'bg': 'default'
-                },
-                {
                     'text': '$',
                     'fg': 'green',
                     'bg': 'default'
