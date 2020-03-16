@@ -72,7 +72,7 @@ class Help:
         
     def __colourise__(self, help_str):
         r = help_str
-        for title in ['Options', 'Examples', 'Legend', 'Synopsis']:
+        for title in ['Options', 'Description', 'Examples', 'Legend', 'Synopsis']:
             r = r.replace(title, color(title, fore=self.template['theme']['colors']['titles']['fg'], style='bright'))
 
         for highlight in self.template['theme']['colors']['highlight']:
