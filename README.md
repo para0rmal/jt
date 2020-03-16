@@ -55,7 +55,7 @@ Examples
 ---
 
 #### View help:
-![jt-help](https://user-images.githubusercontent.com/15225347/76717794-9ab50d00-672c-11ea-9431-38fc6d6b0667.png)
+![image](https://user-images.githubusercontent.com/15225347/76718203-def4dd00-672d-11ea-88ac-1a240d62883d.png)
 
 #### Read JSON from stream:
 ![jt-json](https://user-images.githubusercontent.com/15225347/76711660-c5419e80-6709-11ea-8b03-0795f107a9c1.png)

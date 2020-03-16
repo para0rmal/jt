@@ -192,6 +192,11 @@ template = {
                     'bg': 'default'
                 },
                 {
+                    'text': '|',
+                    'fg': 'magenta',
+                    'bg': 'default'
+                },
+                {
                     'text': '$',
                     'fg': 'green',
                     'bg': 'default'
