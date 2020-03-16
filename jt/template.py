@@ -37,10 +37,6 @@ template = {
                 'command': '$ cat file.yml | jt -y'
             },
             {
-                'description': 'Read JSON from HTTP GET request ',
-                'command': '$ jt -u https://api.github.com/users/para0rmal/repos'
-            },
-            {
                 'description': 'Read JSON from stream',
                 'command': '$ echo \'{"0": {"00": [{"000": "", "001": [""]}]}, "1": {"10": [""]}}\' | jt -s'
             }
@@ -116,7 +112,12 @@ template = {
                     'bg': 'default'
                 },
                 {
-                    'text': 'HTTP GET request',
+                    'text': 'http get request',
+                    'fg': 'blue',
+                    'bg': 'default'
+                },
+                {
+                    'text': 'https://api.github.com/users/para0rmal/repos',
                     'fg': 'blue',
                     'bg': 'default'
                 },
@@ -138,6 +139,11 @@ template = {
                 {
                     'text': 'file.json',
                     'fg': 'green',
+                    'bg': 'default'
+                },
+                {
+                    'text': 'HTTP GET request',
+                    'fg': 'blue',
                     'bg': 'default'
                 },
                 {
